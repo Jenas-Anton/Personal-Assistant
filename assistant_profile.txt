@@ -1,0 +1,170 @@
+name: "Jenas Anton Vimal"
+email: "jenasav010@gmail.com"
+phone: "+91 9148009353"
+linkedin: "https://www.linkedin.com/in/jenas-anton"
+github: "https://github.com/Jenas-Anton"
+
+education:
+  degree: "Bachelor of Engineering in Artificial Intelligence and Data Science"
+  institution: "MS Ramaiah Institute of Technology, Bangalore"
+  duration: "2022 - 2026"
+  cgpa: 9.45
+
+experience:
+  - position: "AI Developer Intern"
+    company: "Titan Company Limited"
+    duration: "Sept 2024 – Oct 2024"
+    projects:
+      - title: "AI Models for Watch Image Generation"
+        description: |
+          Developed AI-driven models to generate realistic images of individuals wearing watches.
+          Leveraged computer vision and deep learning techniques to ensure the generated images were high quality, realistic, and brand-aligned.
+          Integrated Gradio to build an interactive interface for easy and scalable image generation.
+
+skills:
+  languages:
+    - "Python"
+    - "C++"
+    - "C"
+    - "Java"
+    - "SQL"
+    - "R"
+  tools:
+    - "Linux"
+    - "R Studio"
+    - "Jupyter Labs"
+    - "Streamlit"
+    - "Gradio"
+  techniques:
+    - "Machine Learning (ML)"
+    - "Deep Learning"
+    - "Data Mining"
+    - "Data Visualization"
+    - "Web Scraping"
+    - "Computer Vision"
+    - "Generative AI (Gen AI)"
+    - "Large Language Models (LLM) Fine-Tuning"
+    - "Retrieval-Augmented Generation (RAG)"
+  libraries_frameworks:
+    - "PyTorch"
+    - "Transformers"
+    - "Hugging Face"
+    - "Diffusers"
+    - "Xformers"
+    - "JAX"
+
+projects:
+  - name: "Custom-Web-Browser"
+    link: "https://github.com/Jenas-Anton/Custom-Web-Browser"
+    description: |
+      A minimalist Python web browser developed using PyQt5 and QtWebEngine.
+      Key features: Basic navigation, page rendering, and dynamic page updates.
+  - name: "Portfolio-Website"
+    link: "https://github.com/Jenas-Anton/Portfolio-Website"
+    description: |
+      A personal website developed with HTML, CSS, and JavaScript.
+      Showcases projects, work experience, and contact information in a clean and professional layout.
+  - name: "Jenas-Anton"
+    link: "https://github.com/Jenas-Anton/Jenas-Anton"
+    description: |
+      Default GitHub profile README repository.
+      Features pinned repositories and an introductory profile for visitors to learn more about my skills and expertise.
+  - name: "Cancer-Prediction-and-Classification"
+    link: "https://github.com/Jenas-Anton/Cancer-Prediction-and-Classification"
+    description: |
+      Developed machine learning models to predict and classify cancer types based on lncRNA (long non-coding RNA) data.
+      Implemented various classification algorithms to analyze genetic data and predict cancer risk.
+  - name: "Llama-3-8b-chat-doctor"
+    link: "https://github.com/Jenas-Anton/Llama-3-8b-chat-doctor"
+    description: |
+      Integrated Meta’s LLaMA 3.8b model for creating a medical-style chatbot.
+      Focused on model loading, prompt formatting, and producing medical responses in a conversational tone.
+  - name: "AI-Cold-Mail"
+    link: "https://github.com/Jenas-Anton/AI-Cold-Mail"
+    description: |
+      A Python script that generates personalized cold emails using OpenAI's API.
+      Customizable in terms of tone, structure, and content to suit different use cases (e.g., outreach or marketing).
+  - name: "Object-Detection-Model"
+    link: "https://github.com/Jenas-Anton/Object-detection-model"
+    description: |
+      A vehicle detection and counting system using OpenCV for real-time video analysis.
+      Applied contour tracking and background subtraction techniques for robust detection in dynamic environments.
+  - name: "Stable-Diffusion-Fine-Tuning"
+    link: "https://github.com/Jenas-Anton/Stable-Diffusion-Fine-Tuning"
+    description: |
+      Fine-tuned Stable Diffusion models for custom image generation.
+      Developed a Gradio-based interface for users to interact with the model and generate personalized images.
+  - name: "IBM-jupyter-repo"
+    link: "https://github.com/Jenas-Anton/IBM-jupyter-repo"
+    description: |
+      Educational Jupyter Notebooks provided by IBM, focused on teaching Python programming and data science tools.
+      Includes various tutorials and exercises aimed at building foundational skills in data science.
+
+certifications:
+  - name: "Python Project for Data Science (Coursera)"
+    link: "https://www.coursera.org/account/accomplishments/verify/GWJEPZHJ8NUG"
+  - name: "Python for Data Science, AI & Development (Coursera)"
+    link: "https://www.coursera.org/account/accomplishments/verify/SBJSRR6W9YB8"
+  - name: "Tools for Data Science (Coursera)"
+    link: "https://www.coursera.org/account/accomplishments/verify/QXEM6AZ5P7VD"
+
+additional_information:
+  - "GitHub Contributions: Regular contributor to various open-source projects with a focus on machine learning, computer vision, and AI-driven applications."
+  - "Collaborative Projects: I enjoy collaborating with others on GitHub and am always open to contributing to innovative and impactful projects."
+  - "Future Learning: Continuously exploring the latest advancements in AI, ML, and data science, including cutting-edge technologies such as GPT-4, computer vision, and generative models."
+
+questions_and_answers:
+  "What is Jenas Anton Vimal’s educational background?":
+    answer: |
+      Jenas Anton Vimal is currently pursuing a **Bachelor of Engineering in Artificial Intelligence and Data Science** at **MS Ramaiah Institute of Technology, Bangalore** from **2022 to 2026**. He has a **CGPA of 9.45/10**.
+  
+  "Can you tell me about Jenas Anton's work experience?":
+    answer: |
+      Jenas Anton Vimal worked as an **AI Developer Intern** at **Titan Company Limited** from **Sept 2024 – Oct 2024**. During this internship, he developed **AI models for generating realistic images of individuals wearing watches**. He used **computer vision** and **Gradio** to create brand-aligned and scalable image generation models.
+  
+  "What programming languages does Jenas Anton know?":
+    answer: |
+      Jenas Anton is proficient in the following programming languages:
+      - **Python**
+      - **C++**
+      - **C**
+      - **Java**
+      - **SQL**
+      - **R**
+  
+  "Which tools and frameworks is Jenas Anton experienced with?":
+    answer: |
+      Jenas Anton is skilled in using the following tools and frameworks:
+      - **Linux**, **R Studio**, **Jupyter Labs**, **Streamlit**, **Gradio**
+      - **PyTorch**, **Transformers**, **Hugging Face**, **Diffusers**, **Xformers**, **JAX**
+  
+  "Can you list some of Jenas Anton’s projects?":
+    answer: |
+      Here are a few of Jenas Anton’s notable projects:
+      - **[Custom-Web-Browser](https://github.com/Jenas-Anton/Custom-Web-Browser)**: A minimalist Python web browser developed using **PyQt5** and **QtWebEngine**.
+      - **[Portfolio-Website](https://github.com/Jenas-Anton/Portfolio-Website)**: A personal portfolio website built with **HTML**, **CSS**, and **JavaScript** to showcase projects and work experience.
+      - **[Cancer-Prediction-and-Classification](https://github.com/Jenas-Anton/Cancer-Prediction-and-Classification)**: Machine learning models to classify cancer based on **lncRNA** data.
+      - **[AI-Cold-Mail](https://github.com/Jenas-Anton/AI-Cold-Mail)**: A Python script that generates personalized cold emails using **OpenAI’s API**.
+  
+  "What certifications has Jenas Anton completed?":
+    answer: |
+      Jenas Anton has completed the following certifications:
+      - **[Python Project for Data Science (Coursera)](https://www.coursera.org/account/accomplishments/verify/GWJEPZHJ8NUG)**
+      - **[Python for Data Science, AI & Development (Coursera)](https://www.coursera.org/account/accomplishments/verify/SBJSRR6W9YB8)**
+      - **[Tools for Data Science (Coursera)](https://www.coursera.org/account/accomplishments/verify/QXEM6AZ5P7VD)**
+  
+  "How can I reach Jenas Anton?":
+    answer: |
+      You can reach Jenas Anton via the following contact details:
+      - **Email**: [jenasav010@gmail.com](mailto:jenasav010@gmail.com)
+      - **Phone**: +91 9148009353
+      - **LinkedIn**: [Jenas Anton](https://www.linkedin.com/in/jenas-anton)
+      - **GitHub**: [Jenas-Anton](https://github.com/Jenas-Anton)
+  
+  "What are Jenas Anton's key skills?":
+    answer: |
+      Jenas Anton possesses skills in the following areas:
+      - **Languages**: Python, C++, C, Java, SQL, R
+      - **Tools**: Linux, R Studio, Jupyter Labs, Streamlit, Gradio
+      - **Techniques**: Machine Learning, Data Mining, Data Visualization, Web Scraping, Computer Vision, Generative AI, LLM Fine-Tuning, RAG
+      - **Libraries**: PyTorch, Transformers, Hugging Face, Diffusers, Xformers, JAX
