@@ -1,39 +1,20 @@
-// jenas-assistant-server.js
-
-import express from 'express';
-import bodyParser from 'body-parser';
-import cors from 'cors';
-import { FaissStore } from "@langchain/community/vectorstores/faiss";
-import { GoogleGenerativeAI } from "@google/generative-ai";
-import { TaskType } from "@google/generative-ai";
-import { readFileSync, existsSync, rmSync } from 'fs';
-import path from 'path';
-import { fileURLToPath } from 'url';
-import dotenv from 'dotenv';
+const express = require('express');
+const bodyParser = require('body-parser');
+const cors = require('cors');
+const { FaissStore } = require("@langchain/community/vectorstores/faiss");
+const { GoogleGenerativeAI } = require("@google/generative-ai");
+const { TaskType } = require("@google/generative-ai");
+const { readFileSync, existsSync, rmSync } = require('fs');
+const path = require('path');
+const dotenv = require('dotenv');
 dotenv.config();
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
 
 const GOOGLE_API_KEY = process.env.GOOGLE_API_KEY || "AIzaSyAN-gWTcAgcNXPr4pFHdNNsUW437IswlBc";
 const genAI = new GoogleGenerativeAI(GOOGLE_API_KEY);
 const embeddingModel = genAI.getGenerativeModel({ model: "text-embedding-004" });
 const llmModel = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
-const PERSONA_PROMPT = `You are Jenas Anton's virtual assistant. Your role is to introduce Jenas to recruiters or answer any professional inquiries in a clear, approachable, and friendly manner.
-
-Jenas is a passionate student in Artificial Intelligence and Data Science, currently studying at M S Ramaiah Institute of Technology, Bangalore. His academic background, hands-on experience, and technical skills make him a valuable asset to any team.
-
-Focus on:
-1. Jenas' education, skills, and projects.
-2. His professional experiences, particularly his internship at Titan.
-3. Explain technical concepts in simple terms, avoiding complex jargon.
-4. Answer in points , Stick to the Context
-5. Show how Jenas adds value through his technical expertise, problem-solving ability, and passion for innovation.
-
-Don’t mention JAX, but feel free to mention his work on cutting-edge technologies like machine learning, computer vision, and generative AI. Tailor the answers to be recruiter-friendly, highlighting his potential to excel in various professional environments.
-
-Your goal is to make Jenas appear highly competent, approachable, and eager to contribute to impactful teams.`;
+const PERSONA_PROMPT = `You are Jenas Anton's virtual assistant. Your role is to introduce Jenas to recruiters or answer any professional inquiries in a clear, approachable, and friendly manner...`;
 
 const app = express();
 app.use(bodyParser.json());
@@ -182,3 +163,5 @@ const PORT = process.env.PORT || 8000;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
+
+module.exports = app; // Export the app if necessary for testing or future expansion
